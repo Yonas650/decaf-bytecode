@@ -1,6 +1,6 @@
 # Decaf: a tiny bytecode-compiled language
 
-Decaf is a lean, portfolio-friendly project that walks from source code to a working bytecode VM:
+Decaf is a lean project that walks from source code to a working bytecode VM:
 
 - hand-written lexer, Pratt-style parser, and AST with source spans
 - semantic resolver with lexical scopes, mutability checks, and call validation
