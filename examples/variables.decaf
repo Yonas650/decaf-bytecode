@@ -1,0 +1,12 @@
+//notedemonstrates global mutation alongside local let
+var g = 10;
+fn main() {
+    let base = g;
+    var i = 0;
+    while (i - 3) {
+        g = g + i;
+        i = i + 1;
+    }
+    print g;
+    return base;
+}

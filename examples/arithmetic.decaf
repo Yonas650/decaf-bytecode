@@ -1,0 +1,5 @@
+//noteshows precedence of arithmetic and return semantics
+fn main() {
+    print 2 + 3 * 4;
+    return 0;
+}

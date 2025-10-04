@@ -1,0 +1,13 @@
+//notetests conditional printing via if/else branches
+fn classify(n) {
+    if (n) {
+        print n;
+    } else {
+        print 0;
+    }
+    return n;
+}
+
+fn main() {
+    return classify(5);
+}

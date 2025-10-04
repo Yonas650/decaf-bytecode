@@ -1,0 +1,11 @@
+//notesums the first five integers using a while loop
+fn main() {
+    var i = 0;
+    var total = 0;
+    while (i - 5) {
+        total = total + i;
+        i = i + 1;
+    }
+    print total;
+    return total;
+}
